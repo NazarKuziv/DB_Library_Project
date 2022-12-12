@@ -68,7 +68,7 @@
             this.tableLayoutPanel1.Controls.Add(this.label6, 0, 11);
             this.tableLayoutPanel1.Controls.Add(this.penalty_nUpDown, 1, 11);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tableLayoutPanel1.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 14;
@@ -84,8 +84,8 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 15F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 15F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 11F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(434, 291);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -93,6 +93,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(3, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(99, 26);
@@ -103,6 +104,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(3, 56);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(99, 26);
@@ -113,6 +115,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(3, 97);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(99, 26);
@@ -123,6 +126,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.Location = new System.Drawing.Point(3, 138);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(99, 26);
@@ -133,6 +137,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.Location = new System.Drawing.Point(3, 179);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(99, 26);
@@ -142,6 +147,7 @@
             // surname_tb
             // 
             this.surname_tb.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.surname_tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.surname_tb.Location = new System.Drawing.Point(108, 18);
             this.surname_tb.Name = "surname_tb";
             this.surname_tb.Size = new System.Drawing.Size(323, 22);
@@ -150,6 +156,7 @@
             // name_tb
             // 
             this.name_tb.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.name_tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.name_tb.Location = new System.Drawing.Point(108, 59);
             this.name_tb.Name = "name_tb";
             this.name_tb.Size = new System.Drawing.Size(323, 22);
@@ -158,6 +165,7 @@
             // middle_name_tb
             // 
             this.middle_name_tb.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.middle_name_tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.middle_name_tb.Location = new System.Drawing.Point(108, 100);
             this.middle_name_tb.Name = "middle_name_tb";
             this.middle_name_tb.Size = new System.Drawing.Size(323, 22);
@@ -166,6 +174,7 @@
             // address_tb
             // 
             this.address_tb.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.address_tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.address_tb.Location = new System.Drawing.Point(108, 141);
             this.address_tb.Name = "address_tb";
             this.address_tb.Size = new System.Drawing.Size(323, 22);
@@ -174,6 +183,7 @@
             // phone_tb
             // 
             this.phone_tb.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.phone_tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.phone_tb.Location = new System.Drawing.Point(108, 182);
             this.phone_tb.Name = "phone_tb";
             this.phone_tb.Size = new System.Drawing.Size(323, 22);
@@ -181,9 +191,10 @@
             // 
             // add_button
             // 
-            this.add_button.Location = new System.Drawing.Point(3, 264);
+            this.add_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.add_button.Location = new System.Drawing.Point(3, 260);
             this.add_button.Name = "add_button";
-            this.add_button.Size = new System.Drawing.Size(75, 24);
+            this.add_button.Size = new System.Drawing.Size(75, 28);
             this.add_button.TabIndex = 5;
             this.add_button.Text = "Ok";
             this.add_button.UseVisualStyleBackColor = true;
@@ -191,9 +202,10 @@
             // 
             // clear_button
             // 
-            this.clear_button.Location = new System.Drawing.Point(108, 264);
+            this.clear_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.clear_button.Location = new System.Drawing.Point(108, 260);
             this.clear_button.Name = "clear_button";
-            this.clear_button.Size = new System.Drawing.Size(120, 24);
+            this.clear_button.Size = new System.Drawing.Size(120, 28);
             this.clear_button.TabIndex = 6;
             this.clear_button.Text = "Очистити поля";
             this.clear_button.UseVisualStyleBackColor = true;
@@ -203,6 +215,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.Location = new System.Drawing.Point(3, 220);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(99, 26);
@@ -212,6 +225,7 @@
             // penalty_nUpDown
             // 
             this.penalty_nUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.penalty_nUpDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.penalty_nUpDown.Location = new System.Drawing.Point(108, 223);
             this.penalty_nUpDown.Name = "penalty_nUpDown";
             this.penalty_nUpDown.Size = new System.Drawing.Size(323, 22);

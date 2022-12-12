@@ -265,7 +265,7 @@ namespace DB_Lib_project
                     queryString = "UPDATE dbo.employees SET " +
                     "[employee_name] = N'" + employee_nameTextBox.Text + "'," +
                     "[address] = N'" + addressTextBox.Text + "'," +
-                    "[password] = N'" + phone_numberTextBox.Text + "'," +
+                    "[password] = N'" + passwordTextBox.Text + "'," +
                     "[level] = " +levelTextBox.Text + "," +
                     "[photo] = @photo WHERE id = " + idTextBox.Text;
 
@@ -279,7 +279,7 @@ namespace DB_Lib_project
                     "[employee_name] = N'" + employee_nameTextBox.Text + "'," +
                     "[address] = N'" + addressTextBox.Text + "'," +
                     "[phone_number] = N'" + phone_numberTextBox.Text + "'," +
-                    "[password] = N'" + phone_numberTextBox.Text + "'," +
+                    "[password] = N'" + passwordTextBox.Text + "'," +
                     "[level] = " + levelTextBox.Text + "," +
                     "[photo] = @photo WHERE id = " + idTextBox.Text;
 

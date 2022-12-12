@@ -160,8 +160,6 @@ namespace DB_Lib_project
                 }
             }
 
-
-
         }
 
         private void clear_button_Click(object sender, EventArgs e)

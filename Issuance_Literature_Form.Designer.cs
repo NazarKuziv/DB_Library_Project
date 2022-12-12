@@ -65,7 +65,7 @@
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.Window;
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -73,7 +73,7 @@
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.listIssueneBooks, 0, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tableLayoutPanel1.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
@@ -85,7 +85,7 @@
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.tableLayoutPanel2.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel2.ColumnCount = 2;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -120,18 +120,22 @@
             // 
             // reader_button
             // 
+            this.reader_button.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.reader_button.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.reader_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.reader_button.Location = new System.Drawing.Point(3, 3);
             this.reader_button.Name = "reader_button";
             this.reader_button.Size = new System.Drawing.Size(93, 32);
             this.reader_button.TabIndex = 0;
             this.reader_button.Text = "Читачі";
-            this.reader_button.UseVisualStyleBackColor = true;
+            this.reader_button.UseVisualStyleBackColor = false;
             this.reader_button.Click += new System.EventHandler(this.reader_button_Click);
             // 
             // books_button
             // 
+            this.books_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.books_button.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.books_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.books_button.Location = new System.Drawing.Point(102, 3);
             this.books_button.Name = "books_button";
             this.books_button.Size = new System.Drawing.Size(93, 32);
@@ -143,6 +147,7 @@
             // employee_button
             // 
             this.employee_button.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.employee_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.employee_button.Location = new System.Drawing.Point(201, 3);
             this.employee_button.Name = "employee_button";
             this.employee_button.Size = new System.Drawing.Size(95, 32);
@@ -153,6 +158,7 @@
             // 
             // tableLayoutPanel7
             // 
+            this.tableLayoutPanel7.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel7.ColumnCount = 3;
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 137F));
@@ -161,6 +167,7 @@
             this.tableLayoutPanel7.Controls.Add(this.level_label, 1, 0);
             this.tableLayoutPanel7.Controls.Add(this.name_label, 0, 0);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Right;
+            this.tableLayoutPanel7.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tableLayoutPanel7.Location = new System.Drawing.Point(592, 3);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
@@ -242,6 +249,7 @@
             // 
             // add_button
             // 
+            this.add_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.add_button.Dock = System.Windows.Forms.DockStyle.Fill;
             this.add_button.Location = new System.Drawing.Point(3, 3);
             this.add_button.Name = "add_button";
@@ -284,6 +292,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.checkBox1.Location = new System.Drawing.Point(123, 3);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(124, 32);
@@ -295,6 +304,7 @@
             // sort_by_cBox
             // 
             this.sort_by_cBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sort_by_cBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.sort_by_cBox.FormattingEnabled = true;
             this.sort_by_cBox.Items.AddRange(new object[] {
             "--Сортувати за--",
@@ -317,6 +327,7 @@
             this.return_date,
             this.reader_phone});
             this.listIssueneBooks.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listIssueneBooks.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listIssueneBooks.FullRowSelect = true;
             this.listIssueneBooks.HideSelection = false;
             this.listIssueneBooks.Location = new System.Drawing.Point(3, 103);
@@ -365,8 +376,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(1114, 450);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(1130, 489);
             this.Name = "Issuance_Literature_Form";

@@ -78,6 +78,7 @@
             this.tableLayoutPanel1.Controls.Add(this.add_genre, 1, 6);
             this.tableLayoutPanel1.Controls.Add(this.add_publisher, 1, 8);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Font = new System.Drawing.Font("Segoe Print", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 16;
@@ -271,6 +272,7 @@
             // add_author
             // 
             this.add_author.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.add_author.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.add_author.Location = new System.Drawing.Point(131, 165);
             this.add_author.Name = "add_author";
             this.add_author.Size = new System.Drawing.Size(231, 26);
@@ -282,6 +284,7 @@
             // add_genre
             // 
             this.add_genre.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.add_genre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.add_genre.Location = new System.Drawing.Point(131, 307);
             this.add_genre.Name = "add_genre";
             this.add_genre.Size = new System.Drawing.Size(231, 26);
@@ -293,6 +296,7 @@
             // add_publisher
             // 
             this.add_publisher.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.add_publisher.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.add_publisher.Location = new System.Drawing.Point(131, 368);
             this.add_publisher.Name = "add_publisher";
             this.add_publisher.Size = new System.Drawing.Size(231, 26);

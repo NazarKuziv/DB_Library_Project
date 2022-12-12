@@ -190,6 +190,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="icon\1.jpg" />
     <None Include="db\Photo\No-photo-m.jpg" />
     <Content Include="db_library.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
